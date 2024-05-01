@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #004faa;
+    background: url(https://cdn.pixabay.com/photo/2018/03/04/19/36/nature-3198987_1280.jpg);
+    background-size: cover;
+    
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+header {
+    
+    
+    text-align: center;
+    padding: 100px 0;
+    background: url(https://cdn.pixabay.com/photo/2016/11/21/18/14/abstract-1846962_1280.jpg);
+    background-size: cover;
+}
+
+
+.btn {
+    display: inline-block;
+    background-color: #bd5c1b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color:#411602;
+}
+
+section {
+    padding: 50px 0;
+    
+}
+
+.caracteristica {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.caracteristica h3 {
+    font-size: 1.5em;
+}
+
+.testimonio {
+    background-color: #b8a293;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    
+    
+}
+
+.testimonio p {
+    font-style: italic;
+}
+
+.testimonio cite {
+    font-weight: bold;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    background-color: #b8a293;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    background-color:#bd5c1b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #411602;
+}
+
+footer {
+    background-color: #333;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 0;
+    background: url(https://cdn.pixabay.com/photo/2016/03/31/21/53/abstract-1296710_1280.png);
+    background-size: cover;
+}
+
